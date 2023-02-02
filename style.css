@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(183, 205, 205);
+}
+
+.cards {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.card {
+  background-color: brown;
+  font-size: 2.6rem;
+  color: #ffffff;
+  padding: 2rem;
+  transition: all 0.5s;
+}
+
+.active {
+  opacity: 1;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 2rem;
+}
